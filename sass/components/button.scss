@@ -1,0 +1,34 @@
+.btn {
+	background-color: transparent;
+	color: var(--brand-color);
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	display: inline-block;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: var(--border-radius);
+	border: 2px solid var(--brand-color);
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+	transition: all 0.3s ease;
+
+	&:hover {
+		transform: scale(1.05);
+        color: var(--white-color);
+        background-color: var(--brand-color);
+	}
+
+	&--bg {
+		padding: 1.5rem 8rem;
+		font-size: 2rem;
+	}
+
+	&--med {
+		padding: 0.5rem 1.75rem;
+		font-size: 0.75rem;
+
+		@include respond(tab-port) {
+			font-size: 0.5rem;
+			padding: 0.25rem 1.5rem;
+		}
+	}
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>15days Landing Page</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+	</head>
+	<body>
+		<!-- Header-->
+		<header class="header">
+			<div class="header__content">
+				<!-- Logo -->
+				<div class="header__logo-container">
+					<div class="header__logo-img-container">
+						<img src="./images/jpg/29035899.jpg" alt="Brand Logo" class="header__logo-img" />
+					</div>
+				</div>
+				<!-- Brand Name -->
+				<div class="header__name-container">
+					<span class="header__name-text">2Wheels Adventure</span>
+				</div>
+
+				<!-- Links -->
+				<div onclick="openForm()" class="header__links-container">
+					<!-- Pop-up subscribe -->
+                    <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            <h2>Subscribe</h2>
+
+                            <label for="name"><b>Name</b></label>
+                            <input type="text" placeholder="Enter Name" name="name" required>
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="email" placeholder="Enter Email" name="email" required>
+
+                            <button type="submit" class="btn btn--med">Subscribe</button>
+                            
+                    </div>
+
+					<!-- Subscribe Button-->
+					<div class="header__link-container btn btn--med">
+						<a href="#" class="header__link">Subscribe</a>
+					</div>
+					<!-- Subscribe icon (phone)-->
+					<div class="header__icon-container">
+						<a href="#" class="header__icon">
+							<i class="fa-regular fa-bell" alt="Subscribe icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hero Section-->
+		<section class="hero">
+			<div class="hero__content">
+				<h1 class="heading-primary">Top 3 Adventures Motorcycles of 2023</h1>
+				<div class="hero__info">
+					<p class="text-primary">In this article, we will take a look at the top 3 motorcycles of 2023.</p>
+				</div>
+			</div>
+
+			<!-- Social Media Links -->
+			<div class="hero__socials">
+				<div class="hero__social">
+					<a href="#" target="_blank" class="hero__social-icon-link hero__social-icon-link--homepage">
+						<i class="fa-solid fa-house hero__social-icon" alt="homepage icon"></i>
+					</a>
+				</div>
+				<div class="hero__social">
+					<a href="#" target="_blank" class="hero__social-icon-link hero__social-icon-link--youtube">
+						<i class="fa-brands fa-youtube hero__social-icon" alt="youtube icon"></i>
+					</a>
+				</div>
+				<div class="hero__social">
+					<a href="#" target="_blank" class="hero__social-icon-link hero__social-icon-link--facebook">
+						<i class="fa-brands fa-facebook hero__social-icon" alt="facebook icon"></i>
+					</a>
+				</div>
+				<div class="hero__social">
+					<a href="#" target="_blank" class="hero__social-icon-link hero__social-icon-link--instagram">
+						<i class="fa-brands fa-instagram hero__social-icon" alt="instagram icon"></i>
+					</a>
+				</div>
+				<div class="hero__social">
+					<a href="#" target="_blank" class="hero__social-icon-link hero__social-icon-link--twitter">
+						<i class="fa-brands fa-x-twitter hero__social-icon" alt="twitter icon"></i>
+					</a>
+				</div>
+			</div>
+			<!-- Mouse Scroll Animation-->
+			<div class="hero__mouse-scroll-cont">
+				<div class="mouse"></div>
+			</div>
+		</section>
+
+        <!-- About Section-->
+
+        <script src="./index.js"></script>
+	</body>
+</html>
