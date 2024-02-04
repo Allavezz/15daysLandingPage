@@ -1,0 +1,67 @@
+.about__main {
+	background-image: url(../../images/png/trail_top_bg\ \(1\).png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: var(--section-color1);
+	position: relative;
+
+	&-top5-content {
+		border: 2px solid var(--white-color);
+	}
+
+	&-top5-title {
+		color: var(--primary-color);
+		font-weight: 700;
+		font-size: 2rem;
+		margin: 0 auto 0.5rem;
+		width: 92%;
+		@include respond(tab-port) {
+			text-align: center;
+		}
+		@include respond(phone) {
+			font-size: 1.75rem;
+		}
+
+	}
+
+	&-top5-text {
+		color: var(--secondary-color);
+		font-weight: 500;
+		font-size: 1rem;
+		margin: 0 auto 2rem auto;
+		width: 92%;
+		@include respond(phone) {
+			font-size: 1rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+	}
+
+	&-top5-grid-container {
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+		margin: 0 auto 2rem;
+		width: 92%;
+	}
+
+	.about__main-top5-grid-container-table {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		gap: 1rem;
+	}
+}
+
+.mouse-scroll-cont {
+	position: absolute;
+	bottom: 0.5%;
+	left: 50%;
+	transform: translateX(-50%);
+
+	@include respond(phone) {
+		display: none;
+	}
+}

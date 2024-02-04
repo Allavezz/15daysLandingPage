@@ -1,0 +1,20 @@
+.moto-animation {
+	position: absolute;
+	width: 50px;
+	right: 50%;
+	bottom: 0;
+    filter: invert(51%) sepia(75%) saturate(2496%) hue-rotate(163deg) brightness(96%) contrast(101%);
+	animation: toTheMoon 8000ms linear infinite;
+}
+
+@keyframes toTheMoon {
+	0% {
+		bottom: 0;
+		opacity: 1;
+	}
+	100% {
+		bottom: 0.5%;
+		opacity: 1;
+        scale: 1.5;
+	}
+}
