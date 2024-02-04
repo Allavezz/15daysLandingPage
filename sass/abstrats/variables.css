@@ -1,0 +1,13 @@
+:root {
+  --black-color: #111;
+  --white-color: #fff;
+  --primary-color: #333;
+  --seconday-color: #555;
+  --terciary-color: #666;
+  --brand-color: #205e6f;
+  --section-color1: #f2f2f2d0;
+  --section-color2: rgb(250, 250, 250);
+  --border-radius: 5px;
+  --main-font: "Source Sans Pro", sans-serif;
+  --seconday-font: "Overpass", sans-serif;
+}

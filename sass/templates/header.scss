@@ -2,7 +2,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	background-color: var(--white-color);
+	background-color: var(--black-color);
 	box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2);
 
 	&__content {
@@ -29,6 +29,11 @@
 			width: 7.5rem;
 			height: 4.5rem;
 		}
+
+		@include respond(phone) {
+			width: 5rem;
+			height: 3rem;
+		}
 	}
 
 	&__logo-img {
@@ -40,14 +45,19 @@
 	}
 
 	&__name-container {
-		font-size: 1.75rem;
+		font-size: 2rem;
 		text-transform: uppercase;
 		font-weight: 700;
-		letter-spacing: 2px;
-		color: var(--black-color);
+		letter-spacing: 6px;
+		color: var(--white-color);
 
 		@include respond(tab-port) {
 			font-size: 1.5rem;
+			letter-spacing: 4px;
+		}
+
+		@include respond(phone) {
+			font-size: 1rem;
 			letter-spacing: 1.5px;
 		}
 	}

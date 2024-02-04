@@ -2,12 +2,20 @@
 @import './sass/abstrats/variables.scss';
 @import './sass/abstrats/mixins.scss';
 
+@import './sass/abstrats/utilities.scss';
 @import './sass/base/base.scss';
 
-@import './sass/abstrats/utilities.scss';
 @import './sass/components/button.scss';
 
-@import './sass/page/home.scss';
-
 @import './sass/templates/header.scss';
+@import './sass/templates/hero.scss';
+@import './sass/templates/main-section.scss';
+@import './sass/templates/promo-section1.scss';
+@import './sass/templates/sub-section.scss';
+@import './sass/templates/subscribe-section.scss';
+@import './sass/templates/footer.scss';
 @import './sass/components/mouse-scroll.scss';
+@import './sass/components/top5-gallery.scss';
+@import './sass/components/table.scss';
+@import './sass/components/slideshow.scss';
+

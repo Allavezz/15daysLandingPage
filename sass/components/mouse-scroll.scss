@@ -20,6 +20,14 @@
 		animation: wheel 1.3s infinite;
 		-webkit-animation: wheel 1.3s infinite;
 	}
+
+	&--inverse {
+		border: 2px solid var(--brand-color);
+
+		&::before {
+			background-color: var(--brand-color);
+		}
+	}
 }
 
 @keyframes wheel {
