@@ -1,5 +1,5 @@
 .about-sub {
-	background-image: url("../../images/png/trail_top_bg\ \(1\).png"), linear-gradient(180deg, #f2f2f2d0 10%, #c6c1c2d0 90%);
+	background-image: url('images/png/trail_top_bg\ \(1\).png'), linear-gradient(180deg, #f2f2f2d0 10%, #c6c1c2d0 90%);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: relative;
@@ -15,32 +15,26 @@
 	width: 92%;
 	margin: 0 auto;
 	margin-bottom: 5rem;
-	
-	
-
 }
 
 .honorable-mentions__item-title {
 	color: var(--primary-color);
 	font-weight: 700;
 	font-size: 2rem;
-    padding: 0 42px
+	padding: 0 42px;
 }
 
 .honorable-mentions__flex-container {
 	display: flex;
 	flex-wrap: wrap;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
 	gap: 1rem;
 	padding: 1rem 42px;
-	
+
 	border: 2px solid var(--white-color);
 	background-color: var(--white-color);
 	border: var(--border-radius);
-
-	
-	
 
 	@include respond(tab-land) {
 		flex-direction: column;
@@ -61,16 +55,16 @@
 	font-size: 1rem;
 	text-align: left;
 	max-width: 40%;
-	
+
 	line-height: 1.6;
 
 	@include respond(phone) {
 		font-size: 1rem;
 	}
 
-    p {
-        margin-bottom: 1rem;
-    }
+	p {
+		margin-bottom: 1rem;
+	}
 
 	@include respond(tab-land) {
 		max-width: 100%;
@@ -81,22 +75,19 @@
 	max-width: 50%;
 	transition: all 0.3s ease-in-out;
 
-            &:hover {
-                scale: 1.05;
-            }
-
+	&:hover {
+		scale: 1.05;
+	}
 
 	@include respond(tab-land) {
 		max-width: 70%;
 	}
-	
 
 	img {
-	max-width: 100%;
-	object-fit: cover;
-	border-radius: var(--border-radius);
-	overflow: hidden;
-	border: 2px solid var(--white-color);
-	
+		max-width: 100%;
+		object-fit: cover;
+		border-radius: var(--border-radius);
+		overflow: hidden;
+		border: 2px solid var(--white-color);
 	}
 }
