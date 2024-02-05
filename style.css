@@ -340,7 +340,7 @@ textarea {
 }
 
 .hero {
-  background-image: url(../../images/jpg/hero-slider/Patagonia-trip-Advfactory-1.jpg);
+  background-image: url(../../images/jpg/hero/hero-image.jpg);
   background-position: center;
   background-size: cover;
   min-height: calc(100vh - 96px);
@@ -763,7 +763,7 @@ textarea {
 }
 
 .subscribe-section {
-  background-image: url(../../images/jpg/hero-slider/rawhyde-adventures-social-default.jpg);
+  background-image: url(../../images/jpg/hero/subscribe-image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
