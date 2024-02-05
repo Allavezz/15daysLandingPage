@@ -1,8 +1,7 @@
 .about-sub {
-	background-image: url(../../images/png/trail_top_bg\ \(1\).png);
+	background-image: linear-gradient(180deg, #f2f2f2 10%, #c6c1c2 90%), url(../../images/png/trail_top_bg\ \(1\).png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-color: var(--section-color2);
 	position: relative;
 }
 
@@ -34,8 +33,11 @@
     align-items: center;
 	justify-content: space-between;
 	gap: 1rem;
-	padding: 0 42px;
+	padding: 1rem 42px;
+	
 	border: 2px solid var(--white-color);
+	background-color: var(--white-color);
+	border: var(--border-radius);
 
 	
 	
@@ -77,6 +79,12 @@
 
 .honorable-mentions__flex-item-img {
 	max-width: 50%;
+	transition: all 0.3s ease-in-out;
+
+            &:hover {
+                scale: 1.05;
+            }
+
 
 	@include respond(tab-land) {
 		max-width: 70%;
