@@ -1,87 +1,75 @@
 .subscribe-section {
-    background-image: url(../../images/jpg/hero-slider/rawhyde-adventures-social-default.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 50vh;
-    position: relative;
+	background-image: url(../../images/jpg/hero/subscribe-image.JPG);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 50vh;
+	position: relative;
 
-    &__container {
-        position: absolute;
-        right: 8%;
-        top: 35%;
-        color: var(--white-color);
-        font-size: 2.5rem;
+	&__container {
+		position: absolute;
+		right: 8%;
+		top: 35%;
+		color: var(--white-color);
+		font-size: 2.5rem;
 
+		@include respond(tab-port) {
+			font-size: 1.5rem;
+		}
 
-        @include respond(tab-port) {
-            font-size: 1.5rem;
-        }
+		@include respond(phone) {
+			font-size: 1rem;
+		}
 
-        @include respond(phone) {
-            font-size: 1rem;
-        }
+		&-heading {
+			font-weight: 700;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+			margin-bottom: 2rem;
+		}
 
-        &-heading {
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            margin-bottom: 2rem;
-            
+		&-form {
+			display: flex;
+			position: relative;
 
-            
-        }
+			input {
+				width: 70%;
+				padding: 1.25rem 0 1.25rem 1.5rem;
+				border: none;
+				border-radius: 100px 0 0 100px;
+				font-size: 1rem;
 
+				@include respond(tab-port) {
+					font-size: 0.75rem;
+					padding: 0.75rem 0 0.75rem 1.5rem;
+				}
 
-        &-form {
-            display: flex; 
-            position: relative;
-            
-            
+				@include respond(phone) {
+					font-size: 0.5rem;
+				}
+			}
 
+			button {
+				width: 30%;
+				border-radius: 0 100px 100px 0;
+				font-size: 1rem;
+				background-color: var(--brand-color);
+				color: var(--white-color);
+				border: none;
+				font-weight: 700;
+				cursor: pointer;
+				letter-spacing: 1px;
+				text-transform: uppercase;
 
-            input {
-                width: 70%;
-                padding: 1.25rem 0 1.25rem 1.5rem;
-                border: none;
-                border-radius: 100px 0 0 100px;
-                font-size: 1rem;
+				@include respond(tab-port) {
+					font-size: 0.75rem;
+				}
 
-                @include respond(tab-port) {
-                    font-size: 0.75rem;
-                    padding: 0.75rem 0 0.75rem 1.5rem;
-                }
-
-                @include respond(phone) {
-                    font-size: 0.5rem;
-                }
-            
-            
-        
-            }
-
-            button {
-                width: 30%;
-                border-radius: 0 100px 100px 0;
-                font-size: 1rem;
-                background-color: var(--brand-color);
-                color: var(--white-color);
-                border: none;
-                font-weight: 700;
-                cursor: pointer;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-
-                @include respond(tab-port) {
-                    font-size: 0.75rem;
-                }
-
-                @include respond(phone) {
-                    font-size: 0.5rem;
-                }
-
-            }
-        }
-    }
+				@include respond(phone) {
+					font-size: 0.5rem;
+				}
+			}
+		}
+	}
 }
