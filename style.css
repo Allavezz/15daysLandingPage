@@ -433,7 +433,7 @@ textarea {
 }
 
 .about__main {
-  background-image: url("./images/png/trail_top_bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, #c6c1c2 90%);
+  background-image: url("./images/png/trail-top-bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, rgba(198, 193, 194, 0.8156862745) 90%);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -561,7 +561,7 @@ textarea {
 }
 
 .about-sub {
-  background-image: url("./images/png/trail_top_bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, rgba(198, 193, 194, 0.8156862745) 90%);
+  background-image: url("./images/png/trail-top-bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, rgba(198, 193, 194, 0.8156862745) 90%);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -654,7 +654,7 @@ textarea {
 }
 
 .news-section {
-  background-image: url("./images/png/trail_top_bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, #c6c1c2 90%);
+  background-image: url("./images/png/trail-top-bg.png"), linear-gradient(180deg, rgba(242, 242, 242, 0.8156862745) 10%, #c6c1c2 90%);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
