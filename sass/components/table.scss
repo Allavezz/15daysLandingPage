@@ -36,7 +36,7 @@
 
 	td {
 		border-left: 1px solid rgba(0, 0, 0, 0.15);
-		padding: 0.25rem 2rem 0.25rem 1rem;
+		padding: 0.25rem 1rem 0.25rem 1rem;
 	}
 
 	tr:nth-child(even) {
@@ -45,7 +45,7 @@
 
 	td:nth-child(2) {
 		color: var(--terciary-color);
-		padding-right: 8rem;
+		
 	}
 
 	@include respond(phone) {
