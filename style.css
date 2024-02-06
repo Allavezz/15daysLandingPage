@@ -667,6 +667,14 @@ textarea {
     max-width: 70%;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .honorable-mentions__flex-item-img {
+    max-width: 100%;
+  }
+  .honorable-mentions__flex-item-img:hover {
+    scale: 1.1;
+  }
+}
 .honorable-mentions__flex-item-img img {
   max-width: 100%;
   object-fit: cover;
