@@ -8,6 +8,11 @@
 		text-align: center;
 		color: var(--white-color);
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+		@include respond(phone) {
+			font-size: 2rem;
+			letter-spacing: 1px;
+		}
 	}
 
 	&-text-primary {
@@ -18,13 +23,12 @@
 		width: 100%;
 		line-height: 1.6;
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-		
 
 		@include respond(phone) {
-			font-size: 1.25rem;
+			font-size: 1rem;
 		}
 	}
-} 
+}
 
 // Sections Padding
 .section-padding {
@@ -58,6 +62,11 @@
 		color: var(--brand-color);
 		margin-bottom: 1.5rem;
 		position: relative;
+
+		@include respond(phone) {
+			font-size: 1.75rem;
+			word-break: break-word;
+		}
 	}
 
 	&-text {
@@ -78,7 +87,7 @@
 	width: 92%;
 	margin: 0 auto;
 	margin-bottom: 5rem;
-	
+
 	@include respond(tab-port) {
 		margin-bottom: 3rem;
 	}
@@ -106,7 +115,9 @@
 	position: relative;
 
 	@include respond(tab-port) {
+		font-size: 1.75rem;
 		text-align: center;
+		word-break: break-word;
 	}
 }
 
@@ -119,6 +130,3 @@
 	line-height: 1.6;
 	margin-bottom: 2rem;
 }
-
-
-

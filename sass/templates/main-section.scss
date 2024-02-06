@@ -8,6 +8,7 @@
 		background-color: var(--white-color);
 		border: 2px solid var(--white-color);
 		border-radius: var(--border-radius);
+		margin: 0 auto;
 	}
 
 	&-top5-title {
@@ -52,6 +53,12 @@
 		justify-content: space-around;
 		align-items: center;
 		gap: 1rem;
+
+		@include respond(phone) {
+			flex-direction: column;
+			gap: 0.5rem;
+			flex-wrap: wrap;
+		}
 	}
 }
 

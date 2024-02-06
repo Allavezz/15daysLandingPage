@@ -38,6 +38,12 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   color: var(--white-color);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
+@media only screen and (max-width: 37.5em) {
+  .hero__content-heading-primary {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}
 .hero__content-text-primary {
   color: var(--white-color);
   font-size: 1.5rem;
@@ -49,7 +55,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 }
 @media only screen and (max-width: 37.5em) {
   .hero__content-text-primary {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -86,6 +92,12 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   color: var(--brand-color);
   margin-bottom: 1.5rem;
   position: relative;
+}
+@media only screen and (max-width: 37.5em) {
+  .main__heading-h2-title {
+    font-size: 1.75rem;
+    word-break: break-word;
+  }
 }
 .main__heading-h2-text {
   text-align: left;
@@ -133,7 +145,9 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 }
 @media only screen and (max-width: 56.25em) {
   .about-sub__heading-h2 {
+    font-size: 1.75rem;
     text-align: center;
+    word-break: break-word;
   }
 }
 
@@ -403,6 +417,7 @@ textarea {
     padding: 12rem 0 8rem 0;
     margin: auto;
     position: static;
+    word-break: break-word;
     transform: translate(0, 0);
   }
 }
@@ -442,6 +457,7 @@ textarea {
   background-color: var(--white-color);
   border: 2px solid var(--white-color);
   border-radius: var(--border-radius);
+  margin: 0 auto;
 }
 .about__main-top5-title {
   color: var(--primary-color);
@@ -487,6 +503,13 @@ textarea {
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .about__main .about__main-top5-grid-container-table {
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
 }
 
 .mouse-scroll-cont {
@@ -1048,8 +1071,9 @@ footer {
   width: 33%;
   border: 2px solid var(--white-color);
   height: 100%;
-  object-fit: cover;
+  object-position: center;
   overflow: hidden;
+  object-fit: cover;
   border-radius: var(--border-radius);
   transition: all 0.4s ease;
   cursor: pointer;
@@ -1106,14 +1130,13 @@ footer {
 }
 .about__main-top5-table--mobile td {
   border-left: 1px solid rgba(0, 0, 0, 0.15);
-  padding: 0.25rem 2rem 0.25rem 1rem;
+  padding: 0.25rem 1rem 0.25rem 1rem;
 }
 .about__main-top5-table--mobile tr:nth-child(even) {
   background-color: #eee;
 }
 .about__main-top5-table--mobile td:nth-child(2) {
   color: var(--terciary-color);
-  padding-right: 8rem;
 }
 @media only screen and (max-width: 37.5em) {
   .about__main-top5-table--mobile {
