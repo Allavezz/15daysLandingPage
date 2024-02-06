@@ -83,6 +83,14 @@
 		max-width: 70%;
 	}
 
+	@include respond(phone) {
+		max-width: 100%;
+
+		&:hover {
+			scale: 1.1;
+		}
+	}
+
 	img {
 		max-width: 100%;
 		object-fit: cover;
