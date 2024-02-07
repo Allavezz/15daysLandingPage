@@ -7,11 +7,11 @@ Building this project was a lot of fun, and the more I progressed, the more enga
 ## Table of Contents
 
 - [Overview](#Overview)
- - [The Challenge](#the-challenge)
- - [Screenshot](#screenshot)
- - [Links](#links)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 -[My process](#my-process)
- -[Built with](#built-with) 
+  -[Built with](#built-with) 
 
 ## Overview
 
@@ -23,7 +23,7 @@ Building this project was a lot of fun, and the more I progressed, the more enga
 
 ### Links
 
-- Live Site URL: [Live Server](https://allavezz.github.io/15daysLandingPage/)
+- Live Site URL: [https://allavezz.github.io/15daysLandingPage/](https://allavezz.github.io/15daysLandingPage/)
 
 ## My process
 
