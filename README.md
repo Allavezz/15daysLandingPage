@@ -23,7 +23,7 @@ Building this project was a lot of fun, and the more I progressed, the more enga
 
 ### Links
 
-- Live Site URL: [https://allavezz.github.io/15daysLandingPage/](https://allavezz.github.io/15daysLandingPage/)
+- Live Site URL: (https://allavezz.github.io/Landing-Page-Challenge/)
 
 ## My process
 
